@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider Hero 3D</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <h1>🕷️ Spider Hero 3D</h1>
+      <p><strong>Di chuyển:</strong> W A S D / Phím mũi tên</p>
+      <p><strong>Bắn tơ:</strong> Chuột trái để móc vào tòa nhà phía trước</p>
+      <p><strong>Nhảy:</strong> Space</p>
+      <p><strong>Tăng tốc:</strong> Shift</p>
+      <p id="status">Trạng thái: Chạy tự do</p>
+      <p id="score">Điểm: 0</p>
+    </div>
+
+    <div id="overlay">
+      <button id="startBtn">Bắt đầu game</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
